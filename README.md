@@ -17,7 +17,9 @@ Je kan het best als volgt gebruiken:
 * Verplaats de bestanden naar je root map
 
 #### voeg de volgende HTML code toe 
-`<section id="myTypingText"></section>
+```
+<section id="myTypingText"></section>
 			
-<script src="custom.js"></script>`
+<script src="custom.js"></script>
+```
 
