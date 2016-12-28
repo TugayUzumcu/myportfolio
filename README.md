@@ -13,3 +13,11 @@ Ik heb een website gemaakt voor een schoolproject. Op deze website wil ik de bez
 #### Installatie
 Je kan het best als volgt gebruiken:
 * download de library
+* Pak de zip file uit
+* Verplaats de bestanden naar je root map
+
+#### voeg de volgende HTML code toe 
+`<section id="myTypingText"></section>
+			
+<script src="custom.js"></script>`
+
