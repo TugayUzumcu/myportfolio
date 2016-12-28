@@ -16,7 +16,7 @@ Je kan het best als volgt gebruiken:
 * Pak de zip file uit
 * Verplaats de bestanden naar je root map
 
-#### voeg de volgende HTML code toe 
+#### voeg de volgende HTML code toe binnen je <body> tag 
 ```HTML
 <section id="myTypingText"></section>
 			
