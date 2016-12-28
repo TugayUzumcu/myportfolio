@@ -35,3 +35,6 @@ name = prompt("Wat is jouw naam?");
 loopTimer = setTimeout('frameLooper()',80);
 ```
 Door de "80" aan te passen kan je de tekst versnellen of langzamer laten lopen.
+
+#### testen of je tekst wordt gedeeld in een array
+Via je webbrowser (google chrome of firefox) kan je naar developerstool. Vervolgens in console kan je zien of de tekst is geplaatst in de array. 
