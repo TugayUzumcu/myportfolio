@@ -30,3 +30,8 @@ Alles wat daarin wordt geschreven word opgeslagen in de localstorage
 ```javascript
 name = prompt("Wat is jouw naam?");
 ```
+#### snelheid van tekst aanpassen
+```javascript
+loopTimer = setTimeout('frameLooper()',80);
+```
+Door de "80" aan te passen kan je de tekst versnellen of langzamer laten lopen.
