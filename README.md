@@ -17,5 +17,7 @@ Je kan het best als volgt gebruiken:
 * Verplaats de bestanden naar je root map
 
 #### voeg de volgende HTML code toe 
-Inline `code` has `back-ticks around` it.
+`<section id="myTypingText"></section>
+			
+<script src="custom.js"></script>`
 
