@@ -23,3 +23,10 @@ Je kan het best als volgt gebruiken:
 <script src="custom.js"></script>
 ```
 
+#### Prompt tekst aanpassen?
+Dat doe je via het javascript document.
+Je kunt de "wat is jouw naam?" gedeelte aanpassen. 
+Alles wat daarin wordt geschreven word opgeslagen in de localstorage
+```javascript
+name = prompt("Wat is jouw naam?");
+```
