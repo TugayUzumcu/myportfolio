@@ -8,7 +8,7 @@
 Ik heb een website gemaakt voor een schoolproject. Op deze website wil ik de bezoekers het gevoel geven dat zij iets persoonlijks hebben met de website. De bezoeker vult zijn/haar naam in. Deze naam verschijnt letter voor letter op het scherm. Dit moet de bezoeker het gevoel geven dat de website voor hun is gemaakt.
 
 ## Demo
-
+(http://athena.fhict.nl/users/i333757/framework/ "Demo Framework")
 
 #### Installatie
 Je kan het best als volgt gebruiken:
@@ -38,3 +38,6 @@ Door de "80" aan te passen kan je de tekst versnellen of langzamer laten lopen.
 
 #### testen of je tekst wordt gedeeld in een array
 Via je webbrowser (google chrome of firefox) kan je naar developerstool. Vervolgens in console kan je zien of de tekst is geplaatst in de array. 
+
+#### Contact
+tuuzinli@student.fontys.nl
