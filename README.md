@@ -23,21 +23,18 @@ Je kan het best als volgt gebruiken:
 <script src="custom.js"></script>
 ```
 
-#### Prompt tekst aanpassen?
-Dat doe je via het javascript document.
-Je kunt de "wat is jouw naam?" gedeelte aanpassen. 
-Alles wat daarin wordt geschreven word opgeslagen in de localstorage
-```javascript
-name = prompt("Wat is jouw naam?");
-```
 #### snelheid van tekst aanpassen
-```javascript
-loopTimer = setTimeout('frameLooper()',80);
+```HTML
+	var Luuk = new Tugay();
+	Luuk.greet(Vul hier je gewenste snelheid in);
 ```
-Door de "80" aan te passen kan je de tekst versnellen of langzamer laten lopen.
 
 #### testen of je tekst wordt gedeeld in een array
 Via je webbrowser (google chrome of firefox) kan je naar developerstool. Vervolgens in console kan je zien of de tekst is geplaatst in de array. 
 
 #### Contact
 tuuzinli@student.fontys.nl
+
+#### UPDATE 1
+
+Library manier toegepast.
