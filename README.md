@@ -28,6 +28,7 @@ Je kan het best als volgt gebruiken:
 	var Luuk = new Tugay();
 	Luuk.greet(Vul hier je gewenste snelheid in);
 ```
+Maak een variable aan, in dit geval "Luuk". Tugay is de functie. Roep greet aan en vul je gewenste snelheid in
 
 #### testen of je tekst wordt gedeeld in een array
 Via je webbrowser (google chrome of firefox) kan je naar developerstool. Vervolgens in console kan je zien of de tekst is geplaatst in de array. 
