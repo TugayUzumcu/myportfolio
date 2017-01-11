@@ -5,26 +5,29 @@ var Tugay = function()
 {
 	
 	
-	 var myString = ("Welkom, " + localStorage.getItem("name"));
-			var myArray = myString.split("");
-			var loopTimer;
-			var timespeeddefault ="800";
+			var myArray; //Ik heb hier een variable "myArray" aangemaakt
+			var loopTimer; //ik heb hier een variable "loopTimer" gemaakt.
+			var timespeeddefault ="800"; //Ik heb hier de variable timespeeddefault aangemaakt en een standaard waarde van 800 toegewezen.
 	
 	
-var greet = function(timespeed){
+var greet = function(timespeed){ //Hier heb ik een variable greet gemaakt 
+	//Hierboven zie je timespeed, Timespeed is de snelheid die wordt aangegeven
 	
-	timespeeddefault = timespeed || timespeeddefault;
+	timespeeddefault = timespeed || timespeeddefault;//timespeeddefault wordt boven standaard op 800 gezet maar
+	//als er in de html greet wordt opgeroepen en een waarde wordt toegewezen veranderd de speeddefault want timespeeddefault is timespeed dus wat je invuld maar als het leeg wordt gelaten neemt hij 800 mee
 	
-    name = localStorage.getItem("name");
-    if (name == null || name == "null"){ 
-      alert("Hallo, Bezoeker!");
-      name = prompt("Wat is jouw naam?");
+    var name = localStorage.getItem("name"); //variable name krijgt de data in de HTML5 Api localstorage 
+    if (name == null || name == "null"){ //Als name leeg is gaat de if-statement aan de slag :)  
+      alert("Hallo, Bezoeker!"); //Ja.. Alert.
+      name = prompt("Wat is jouw naam?"); // Wat je hier invoert komt in de variable name.
       localStorage.setItem("name", name);//De ingevoerde tekst wordt in localstorage gezet
-    } else {
-      
-		alert ("Hi, " + name + "!");
+
+		
+    } 
+      	var myString = ("Welkom, " + localStorage.getItem("name")); //in variable mystring komt de ingevoerde tekst en de tekst welkom
+		myArray = myString.split(""); //wordt gesplit
+		alert ("Hi, " + name + "!"); // een alert met de "name"
 		this.frameLooper();
-    } // end greet
 	
 	
 	
@@ -37,25 +40,25 @@ var greet = function(timespeed){
 				
 				 
 				 
-				 console.log(timespeeddefault);
+				 console.log(timespeeddefault);//Hiermee kan je zien in je console(browser) wat de timespeeddefault is
 			 	if (myArray.length > 0) 
 			 	{
 			 		document.getElementById("myTypingText").innerHTML += myArray.shift();
-			 		console.log(myArray);
-			 		loopTimer = setTimeout(frameLooper, timespeeddefault);
+			 		console.log(myArray);//Is weer een console log
+			 		loopTimer = setTimeout(frameLooper, timespeeddefault);//looptime wordt hier timesetout 
 
 			 	}
 			 	else
 			 	{
-			 		clearTimeout(loopTimer);
+			 		clearTimeout(loopTimer);//Stoppen
 			 		console.log("stop!");
 			 	}
 			 	
 			 };
 			//frameLooper(); 
 	return {
-        frameLooper:frameLooper,
-		greet:greet
+        frameLooper:frameLooper,//Return
+		greet:greet//Return
 	};
 };
 	
