@@ -45,7 +45,7 @@ var Tugay = function()
 	return {
         frameLooper:frameLooper,  
 		greet:greet
-//		dit betekent dat alle functie een aparte intance hebben
+//		dit betekent dat alle functie een aparte instance hebben
 //		dus stel dat jij iets wilt beschermen van de buiten wereld zodat je van buiten af geen rare fratsen gebeurt kun je closures gebruiken
 //		de logica gebeurt binnen in die functie
 //		en de gebruiker kan dan geen globale variabelen zomaar aanpassen om waarden te laten zien wat ze niet zijn
