@@ -29,20 +29,27 @@ var Tugay = function()
 		
 		console.log(timespeeddefault);//Hiermee kan je zien in je console(browser) wat de timespeeddefault is
 		if (myArray.length > 0){
-			document.getElementById("myTypingText").innerHTML += myArray.shift();
+			document.getElementById("myTypingText").innerHTML += myArray.shift(); 
+//			Alle letters worden in een array gestopt, en dan haalt hij de element uit de array en stopt het in die myTypingText
+//en verwijderd het uit de array
 			console.log(myArray);//Is weer een console log
-			loopTimer = setTimeout(frameLooper, timespeeddefault);//looptime wordt hier timesetout 
+			loopTimer = setTimeout(frameLooper, timespeeddefault);//voert functie uit na het wachten
 
 		}else{
-			clearTimeout(loopTimer);//Stoppen
+			clearTimeout(loopTimer);//cleared de timer in settimeout.
 			console.log("stop!");
 		}
 			 	
 	};
 			//frameLooper(); 
 	return {
-        frameLooper:frameLooper,//Return
-		greet:greet//Return
+        frameLooper:frameLooper,  
+		greet:greet
+//		dit betekent dat alle functie een aparte intance hebben
+//		dus stel dat jij iets wilt beschermen van de buiten wereld zodat je van buiten af geen rare fratsen gebeurt kun je closures gebruiken
+//		de logica gebeurt binnen in die functie
+//		en de gebruiker kan dan geen globale variabelen zomaar aanpassen om waarden te laten zien wat ze niet zijn
+//		in een closure is dat zo afgehandeld dat de variabelen binnen in een functie worden gedeclareerd en daarom kun jij niet erbij of ze beinvloeden , Javascript is een functie based taal, geen scope based taal	
 	};
 };
 	
